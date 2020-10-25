@@ -24,3 +24,11 @@ Use the base code provided and run the commands for make, insmod and rmmod
 
 Verify the log output using dmesg
 ![Screenshot from 2020-10-26 00-31-21](https://user-images.githubusercontent.com/6368257/97116427-06c80c80-1723-11eb-9b48-cabc62badd3d.png)
+
+Update the cmpe283-1.c file with the bits to be read for primary and secondary processor based controls and entry and exit controls.
+Run 'make' again and load the kerner object into the kernel with the insmod command and check the dmesg log.
+
+    sudo insmod ./cmpe283-1.c
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/6368257/97118185-a343dc00-172e-11eb-8385-b75c6cb47518.gif)
+
+Verify that the log contains the details of the MSR controls and the flags that are set.
