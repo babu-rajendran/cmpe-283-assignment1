@@ -31,4 +31,4 @@ Run 'make' again and load the kerner object into the kernel with the insmod comm
     sudo insmod ./cmpe283-1.c
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/6368257/97118185-a343dc00-172e-11eb-8385-b75c6cb47518.gif)
 
-Verify that the log contains the details of the MSR controls and the flags that are set.
+Verify that the log contains the details of the MSR controls and the flags that are set. Verify that the control for Activate Secondary controls in Primary Procbased returns yes as secondary procbased controls are only available if its set to yes.
