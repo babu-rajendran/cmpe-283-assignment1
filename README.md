@@ -18,3 +18,9 @@ Fork and clone the linux repository
 
 Install packages for building linux kernel from source
 ![Screenshot from 2020-10-05 22-45-30](https://user-images.githubusercontent.com/6368257/97115707-214bb700-171e-11eb-82f5-0373851db41f.png)
+
+Use the base code provided and run the commands for make, insmod and rmmod
+![Screenshot from 2020-10-26 00-30-57](https://user-images.githubusercontent.com/6368257/97116388-bfda1700-1722-11eb-926f-b023cb007b76.png)
+
+Verify the log output using dmesg
+![Screenshot from 2020-10-26 00-31-21](https://user-images.githubusercontent.com/6368257/97116427-06c80c80-1723-11eb-9b48-cabc62badd3d.png)
